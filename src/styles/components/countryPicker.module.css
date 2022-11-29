@@ -1,0 +1,20 @@
+
+.dropdownContainer > * {
+  height: 24px;
+  margin: 0.2em;
+}
+
+.dropdownContainer { 
+  background: #FEFEFE;
+  width: 200px;
+  height: 200px;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
+
+.countryPicker {
+  margin-top: 0.2em;
+  border: 1px solid black;
+  padding: 0.1em 0.5em;
+  background: #FEFEFE;
+}

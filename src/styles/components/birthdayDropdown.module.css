@@ -1,0 +1,11 @@
+
+.dropdownContainer {
+  display: flex;
+  align-items: center;
+}
+
+.dropdownContainer label {
+  margin-left: 0.7em;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,101 @@
+
+.background {
+  background: rgb(51,153,187);
+  background: linear-gradient(130deg, rgba(51,153,187,0.6) 0%, rgba(0,78,217,0.6) 100%);
+  width: 100vw;
+  min-height: 100vh;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.mainContainer {
+  background: rgb(240, 240, 250);
+  padding: 4em 2em;
+  margin: 2em;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 1em;
+  overflow: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer > label {
+  margin: 0.75em 0;
+}
+
+.mainContainer > label > input {
+  margin-left: 0.5em;
+}
+
+.companyLogo {
+  width: 5em;
+  height: 3.5em;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.coverLetter {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.tooltip {
+  background: white;
+  height: 1.2em;
+  width: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #333;
+
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-left: 0.5em;
+}
+
+
+.flex {
+  display: flex;
+}
+
+.buttonContainer {
+  margin-top: 2em;
+}
+
+.buttonContainer > button {
+  margin: 0 1em;
+}
+
+.resetButton {
+  font-size: 1.2em;
+  background: rgb(154, 199, 154);
+  border-radius: 4px;
+}
+
+.resetButton:hover {
+  transition: 0.1s;
+  transform: scale(1.2);
+  background-color: rgb(202, 235, 202);
+  cursor: pointer;
+}
+
+.submitButton {
+  text-decoration: none;
+  border: none;
+  background: none;
+  font-size: 0.8em;
+}
+
+.submitButton:hover {
+  cursor: pointer;
+}
